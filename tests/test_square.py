@@ -9,3 +9,5 @@ def test_multiple_square(side_length, expected_area):
 @pytest.mark.parametrize('side_length, expected_area', [(3,12),(4,16),(5,20)])
 def test_square_perimeter(side_length, expected_area):
     assert shapes.Square(side_length).perimeter() == expected_area
+
+    
